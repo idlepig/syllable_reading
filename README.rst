@@ -16,8 +16,17 @@ syllable_reading
 
 
 
-Pgenerate bold text divided by syllables
+generate bold text divided by syllables
 
+Usage in terminal
+
+.. code-block::
+
+    syllable_reading generate bold text divided by syllables
+
+output::
+
+    **ge**nerate **bo**ld **te**xt **di**vided **by** **sylla**bles
 
 * Free software: MIT license
 * Documentation: https://syllable-reading.readthedocs.io.

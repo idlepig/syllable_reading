@@ -18,10 +18,10 @@ script: tox
 # $ travis encrypt --add deploy.password
 deploy:
   provider: pypi
-  distributions: sdist bdist_wheel
+  distributions: bdist wheel
   user: idlepig
   password:
-    secure: PLEASE_REPLACE_ME
+    secure: fsbMTUFi55Km8OSrSW2a5gTLTVoEpoD0AACjaMm+cYR785i/RDwVSlMQLuH7zV9QT3WwB/yuW10H6FrhZijdbX0SCfIivZz0FpcW+QMEQtPxBKZjx5OCjSzgP3ckDB83+HDOt+LhCsjBEIa8HZC1TrRXQkhRcCRRyOKQQd4wc+O7rtPmR+ajZks/Dn2hEzaQwOabA0Wgh6RsdqAggZy8ZBd53HE04fZwt5dYe5cE7cntxP/UT271E0xMlkRoA0XsJ2XbippMwjhLMqQ9iJHnFPivaFkfp7CtDZkUcaUIg7Cx2jNlMNCgM1ny5UJuI8OHguHiUW6N+BWE1IL0D8glEKSeyEZOHvJNvXQtyqUO+Y67fvB36K1ckNxkL/MACmkB7x8aBWLHfqV/svfY9V4StxzyWbRwG3ze/ES/9NI9KVRmXc/9sSDBXhnS86Z5fU0hQw4c1SjIhe8DVIpnWKJAJ3IMLcfl5d2xL9acqkj1bvqhrgIsZuRFjJksYGWr0srQQ2jQSn23DLMunLVSaIxrcJvQW26eE5B3wnYx3TWuKLyZB7SL2ENFp+iEKkC/BXCtl6PtqT/OMLdIkUv/2P11XIPmtBclBbf8lmTx2oKbGUsGZjnLuHnIk7FkCy0Q7+zTNgQhCMP3BTJCdzlo8i/MjzZlY2PLSxW4RucLhIJbdRk=
   on:
     tags: true
     repo: idlepig/syllable_reading

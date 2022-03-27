@@ -1,6 +1,6 @@
 """Console script for syllable_reading."""
 import sys
-from syllable_reading import run
+from syllable_reading.syllable_reading import run
 
 
 def main(args=None):
